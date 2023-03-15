@@ -1,0 +1,246 @@
+:root {
+  --colorbody-portfolio: #434455;
+  --brand-color: #f4f4fd;
+  --backgroundstudio: #2e2f42;
+  --Third-title: #2e2f42;
+  --name-team-var: #2e2f42;
+}
+
+/* body */
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.body-studio {
+  color: #434455;
+}
+
+/* Color-body-VAR */
+.body-portfolio {
+  color: var(--colorbody-portfolio);
+}
+
+/* nav */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+.link-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link-list:hover,
+.link-list:focus {
+  color: #404bbf;
+}
+
+/* address */
+.adress-portfolio {
+  font-style: normal;
+}
+
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* main */
+
+/* First-list-buttons */
+.list {
+  list-style: none;
+}
+
+.all-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+/* portfolio-button-VAR */
+.all-button {
+  background-color: var(--brand-color);
+}
+
+.all-button:hover,
+.all-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/* Button-Section */
+/* Studio-button-VAR */
+.button-section {
+  background-color: var(--backgroundstudio);
+}
+
+.site-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button-studio {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-studio:hover,
+.button-studio:focus {
+  color: #404bbf;
+}
+/* First-Section */
+.text-section {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+
+.header-first-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+/* Second-Section */
+.second-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* Thrid-Section */
+
+.our-team-section {
+  background-color: #f4f4fd;
+}
+/* Studio-Third-section-VAR */
+.title-thrid-section {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--Third-title);
+}
+
+
+.team-list {
+  background-color: #ffffff;
+}
+/* Studio-NameTeam-VAR */
+.name-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--name-team-var);
+}
+
+/* section portfolio */
+.link {
+  text-decoration: none;
+}
+
+.name-images {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.info-images {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* footer */
+.footer-portfolio {
+  background: #2e2f42;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  align-items: flex-start;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-footer-span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer-info {
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
