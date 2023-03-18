@@ -20,6 +20,13 @@ ul li {
   list-style-type: none;
 }
 
+.container {
+  width: 1140px;
+}
+
+.section {
+}
+
 .body-studio {
   color: #434455;
 }
@@ -79,6 +86,7 @@ ul li {
 /* First-list-buttons */
 .list {
   list-style: none;
+  display: flex;
 }
 
 .all-button {
@@ -144,6 +152,12 @@ ul li {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.first-section-box {
+  width: 264px;
+  margin: 120px 24px 200px 0;
+}
+
 /* Second-Section */
 .second-header {
   font-size: 36px;
@@ -168,7 +182,6 @@ ul li {
   text-transform: capitalize;
   color: var(--Third-title);
 }
-
 
 .team-list {
   background-color: #ffffff;
