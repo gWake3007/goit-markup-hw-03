@@ -6,6 +6,32 @@
   --name-team-var: #2e2f42;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
 /* body */
 body {
   font-family: "Roboto", sans-serif;
@@ -21,10 +47,15 @@ ul li {
 }
 
 .container {
-  width: 1140px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .body-studio {
@@ -111,6 +142,37 @@ ul li {
 }
 
 /* Button-Section */
+.button-section {
+  padding-top: 0;
+}
+
+.site-title {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 496px;
+  margin: 0 auto;
+}
+
+.button-studio {
+  display: block;
+  margin: 0 auto;
+}
+/*
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}*/
+
 /* Studio-button-VAR */
 .button-section {
   background-color: var(--backgroundstudio);
@@ -155,7 +217,7 @@ ul li {
 
 .first-section-box {
   width: 264px;
-  margin: 120px 24px 200px 0;
+  padding: 0 24px 0 0;
 }
 
 /* Second-Section */
@@ -218,6 +280,7 @@ ul li {
 /* footer */
 .footer-portfolio {
   background: #2e2f42;
+  padding-top: 60px;
 }
 
 .logo-footer {
