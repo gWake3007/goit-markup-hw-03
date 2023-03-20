@@ -67,6 +67,11 @@ ul li {
   color: var(--colorbody-portfolio);
 }
 
+/* Header */
+.header-portfolio {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
 /* nav */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -76,6 +81,7 @@ ul li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 147px;
 }
 
 .logo-span {
@@ -95,10 +101,23 @@ ul li {
   color: #404bbf;
 }
 
-/* address */
-.adress-portfolio {
-  font-style: normal;
+.all-link-list {
+  display: flex;
+  gap: 40px;
 }
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-block {
+  display: flex;
+}
+
+/* justify-content: space-between; */
+/* address */
 
 .address-link {
   font-size: 16px;
@@ -154,8 +173,12 @@ ul li {
 }
 
 .button-studio {
+  min-width: 169px;
+  height: 56px;
   display: block;
   margin: 0 auto;
+  border-radius: 4px;
+  background-color: transparent;
 }
 /*
   display: flex;
