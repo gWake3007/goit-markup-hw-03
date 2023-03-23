@@ -71,6 +71,8 @@ ul li {
 .header-portfolio {
   padding-bottom: 25px;
   padding-top: 25px;
+  border-bottom: 1px;
+  border-color: #e7e9fc;
 }
 /* nav */
 .logo {
@@ -165,11 +167,26 @@ ul li {
   padding-top: 0;
 }
 
+.button-section-conteiner {
+  height: 1440px;
+  max-height: 519px;
+}
+
+/* Studio-button-VAR */
+.button-section {
+  background-color: var(--backgroundstudio);
+}
+
 .site-title {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 496px;
   margin: 0 auto;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .button-studio {
@@ -179,37 +196,6 @@ ul li {
   margin: 0 auto;
   border-radius: 4px;
   background-color: transparent;
-}
-/*
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}*/
-
-/* Studio-button-VAR */
-.button-section {
-  background-color: var(--backgroundstudio);
-}
-
-.site-title {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
-.button-studio {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -224,7 +210,9 @@ ul li {
 .button-studio:focus {
   color: #404bbf;
 }
+
 /* First-Section */
+
 .text-section {
   letter-spacing: 0.02em;
   font-size: 16px;
@@ -236,11 +224,15 @@ ul li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
-.first-section-box {
+.first-section-li:not(:last-child) {
+  margin-right: 24px;
+}
+
+.first-section-li {
   width: 264px;
-  padding: 0 24px 0 0;
 }
 
 /* Second-Section */
@@ -251,13 +243,20 @@ ul li {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-bottom: 72px;
+}
+
+.gadget-li {
+  padding-right: 24px;
 }
 
 /* Thrid-Section */
 
 .our-team-section {
   background-color: #f4f4fd;
+  margin-top: 60px;
 }
+
 /* Studio-Third-section-VAR */
 .title-thrid-section {
   font-size: 36px;
@@ -266,10 +265,16 @@ ul li {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--Third-title);
+  padding-top: 60px;
+  padding-bottom: 72px;
 }
 
 .team-list {
   background-color: #ffffff;
+  padding-left: 24px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 /* Studio-NameTeam-VAR */
 .name-team {
@@ -278,6 +283,10 @@ ul li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--name-team-var);
+}
+
+.third-section-div {
+  height: 120px;
 }
 
 /* section portfolio */
@@ -304,6 +313,7 @@ ul li {
 .footer-portfolio {
   background: #2e2f42;
   padding-top: 60px;
+  height: 310px;
 }
 
 .logo-footer {
@@ -316,7 +326,6 @@ ul li {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -328,7 +337,7 @@ ul li {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -342,4 +351,11 @@ ul li {
 .footer-info {
   letter-spacing: 0.02em;
   color: #e7e9fc;
+  padding-top: 16px;
+  line-height: 1.5;
+  width: 264px;
+}
+
+.footer-div {
+  position: absolute;
 }
