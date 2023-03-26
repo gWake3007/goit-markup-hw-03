@@ -2,7 +2,7 @@
   --colorbody-portfolio: #434455;
   --brand-color: #f4f4fd;
   --backgroundstudio: #2e2f42;
-  --Third-title: #2e2f42;
+  --studio-title: #2e2f42;
   --name-team-var: #2e2f42;
   --cornflower: #e7e9fc;
 }
@@ -55,8 +55,11 @@ ul li {
 }
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+}
+
+.section:last-child {
+  padding-bottom: 120px;
 }
 
 .section:last-child {
@@ -152,19 +155,19 @@ ul li {
 /* main */
 
 /* List-buttons-portfolio */
+
+.filter{
+  padding-top: 96px;
+}
+
 .all-button-list {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding-bottom: 0;
   gap: 24px;
-  position: absolute;
-}
+  justify-content: center;
+  margin-bottom: 72px;
 
-.container-button-list {
-  margin-top: 96px;
-  padding-bottom: 120px;
-  padding-left: 271px;
 }
 
 .all-button {
@@ -213,6 +216,7 @@ ul li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .info-images {
@@ -287,10 +291,6 @@ ul li {
 
 /* First-Section */
 
-.first-conteiner{
-  padding-top: 120px;
-}
-
 .header-first-section {
   font-weight: 500;
   font-size: 20px;
@@ -314,41 +314,25 @@ ul li {
 }
 
 /* Second-Section */
-.second-header {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
-}
 
 .gadget-li:not(:last-child) {
   margin-right: 24px;
 }
 
-.gadget-li {
-  padding-bottom: 120px;
-}
-
 /* Thrid-Section */
 
-/* Studio-Third-section-VAR */
-.title-thrid-section {
+.studio-titles {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--Third-title);
+  color: var(--studio-title);
   margin-bottom: 72px;
-  margin-top: 120px;
 }
 
 .team-list-ul {
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-list {
@@ -360,6 +344,7 @@ ul li {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
 }
 
 /* Studio-NameTeam-VAR */
@@ -374,9 +359,6 @@ ul li {
 /* footer */
 .footer-portfolio {
   background: #2e2f42;
-}
-
-.footer-div {
   padding: 100px;
 }
 
