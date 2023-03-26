@@ -59,6 +59,10 @@ ul li {
   padding-bottom: 60px;
 }
 
+.section:last-child {
+  background-color: #f4f4fd;
+}
+
 .body-studio {
   color: #434455;
 }
@@ -184,6 +188,7 @@ ul li {
 }
 
 /* portfolio-button-VAR */
+
 .all-button {
   background-color: var(--brand-color);
 }
@@ -195,6 +200,7 @@ ul li {
 }
 
 /* Studio-button-VAR */
+
 .button-section {
   background-color: var(--backgroundstudio);
 }
@@ -209,7 +215,6 @@ ul li {
   color: #2e2f42;
 }
 
-
 .info-images {
   font-size: 16px;
   line-height: 1.5;
@@ -222,7 +227,7 @@ ul li {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .gadget-li {
@@ -236,11 +241,12 @@ ul li {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding:32px;
+  padding: 32px;
   padding-left: 16px;
 }
 
 /* Button-Section */
+
 .button-section {
   padding-top: 192px;
   padding-bottom: 106px;
@@ -280,7 +286,8 @@ ul li {
 }
 
 /* First-Section */
-.first-section {
+
+.first-conteiner{
   padding-top: 120px;
 }
 
@@ -321,13 +328,11 @@ ul li {
   margin-right: 24px;
 }
 
-/* Thrid-Section */
-
-.our-team-section {
-  background-color: #f4f4fd;
-  margin-top: 60px;
+.gadget-li {
   padding-bottom: 120px;
 }
+
+/* Thrid-Section */
 
 /* Studio-Third-section-VAR */
 .title-thrid-section {
@@ -337,12 +342,13 @@ ul li {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--Third-title);
-  margin-top: 120px;
   margin-bottom: 72px;
+  margin-top: 120px;
 }
 
 .team-list-ul {
   gap: 24px;
+  padding-bottom: 120px;
 }
 
 .team-list {
