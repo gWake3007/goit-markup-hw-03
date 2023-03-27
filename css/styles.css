@@ -39,7 +39,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #2e2f42;
 }
 
@@ -50,20 +50,15 @@ ul li {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.first-section{
   padding-top: 120px;
-}
-
-.section:last-child {
   padding-bottom: 120px;
 }
+
 
 .section:last-child {
   background-color: #f4f4fd;
@@ -254,7 +249,7 @@ section {
 /* Button-Section */
 
 .button-section {
-  padding-top: 192px;
+  padding-top: 188px;
   padding-bottom: 188px;
 }
 
@@ -315,6 +310,10 @@ section {
   font-size: 16px;
 }
 
+.first-section{
+  padding-bottom: 0;
+}
+
 /* Second-Section */
 
 .gadget-li:not(:last-child) {
@@ -361,7 +360,8 @@ section {
 /* footer */
 .footer-portfolio {
   background: #2e2f42;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
