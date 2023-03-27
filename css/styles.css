@@ -49,12 +49,15 @@ ul li {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
-.section {
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.first-section{
   padding-top: 120px;
 }
 
@@ -156,8 +159,9 @@ ul li {
 
 /* List-buttons-portfolio */
 
-.filter{
+.filter {
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .all-button-list {
@@ -167,7 +171,6 @@ ul li {
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
-
 }
 
 .all-button {
@@ -231,7 +234,6 @@ ul li {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 
 .gadget-li {
@@ -253,7 +255,7 @@ ul li {
 
 .button-section {
   padding-top: 192px;
-  padding-bottom: 106px;
+  padding-bottom: 188px;
 }
 
 .site-title {
